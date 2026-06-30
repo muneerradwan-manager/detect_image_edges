@@ -1,4 +1,4 @@
-# edge_detection_plus
+# detect_image_edges
 
 A flutter plugin to detect edges of objects, scan paper, detect corners, detect rectangles. It allows cropping of the detected object image and returns the path of the cropped image.
 
@@ -34,7 +34,7 @@ end
 Add this line to your Podfile in your project:
 
 ```
-pod 'WeScan', :path => '.symlinks/plugins/edge_detection_plus/ios/WeScan-3.0.0'
+pod 'WeScan', :path => '.symlinks/plugins/detect_image_edges/ios/WeScan-3.0.0'
 ```
 
 => like this below:
@@ -43,7 +43,7 @@ pod 'WeScan', :path => '.symlinks/plugins/edge_detection_plus/ios/WeScan-3.0.0'
 target 'Runner' do
   use_frameworks!
   use_modular_headers!
-  pod 'WeScan', :path => '.symlinks/plugins/edge_detection_plus/ios/WeScan-3.0.0'
+  pod 'WeScan', :path => '.symlinks/plugins/detect_image_edges/ios/WeScan-3.0.0'
   flutter_install_all_ios_pods File.dirname(File.realpath(__FILE__))
 end
 ```
@@ -88,7 +88,7 @@ Please check the latest version before installation.
 dependencies:
   flutter:
     sdk: flutter
-  edge_detection_plus: ^1.0.0
+  detect_image_edges: ^1.0.0
   permission_handler: ^10.0.0
   path_provider: ^2.0.11
   path: ^1.8.2
@@ -97,7 +97,7 @@ dependencies:
 ### Add the following imports to your Dart code:
 
 ```
-import 'package:edge_detection_plus/edge_detection_plus.dart';
+import 'package:detect_image_edges/detect_image_edges.dart';
 ```
 
 ```dart
