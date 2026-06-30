@@ -6,10 +6,10 @@
 
 #import "GeneratedPluginRegistrant.h"
 
-#if __has_include(<edge_detection_plus/EdgeDetectionPlugin.h>)
-#import <edge_detection_plus/EdgeDetectionPlugin.h>
+#if __has_include(<detect_image_edges/EdgeDetectionPlugin.h>)
+#import <detect_image_edges/EdgeDetectionPlugin.h>
 #else
-@import edge_detection_plus;
+@import detect_image_edges;
 #endif
 
 #if __has_include(<permission_handler_apple/PermissionHandlerPlugin.h>)

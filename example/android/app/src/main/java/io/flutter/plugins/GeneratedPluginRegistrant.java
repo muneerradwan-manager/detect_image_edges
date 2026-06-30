@@ -18,7 +18,7 @@ public final class GeneratedPluginRegistrant {
     try {
       flutterEngine.getPlugins().add(new com.sample.edgedetection.EdgeDetectionPlugin());
     } catch (Exception e) {
-      Log.e(TAG, "Error registering plugin edge_detection_plus, com.sample.edgedetection.EdgeDetectionPlugin", e);
+      Log.e(TAG, "Error registering plugin detect_image_edges, com.sample.edgedetection.EdgeDetectionPlugin", e);
     }
     try {
       flutterEngine.getPlugins().add(new com.github.dart_lang.jni.JniPlugin());

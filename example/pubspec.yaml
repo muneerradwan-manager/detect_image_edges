@@ -1,12 +1,12 @@
-name: edge_detection_plus_example
-description: Demonstrates how to use the edge_detection_plus plugin.
+name: detect_image_edges_example
+description: Demonstrates how to use the detect_image_edges plugin.
 
 # The following line prevents the package from being accidentally published to
 # pub.dev using `pub publish`. This is preferred for private packages.
 publish_to: "none" # Remove this line if you wish to publish to pub.dev
 
 environment:
-  sdk: ">=2.12.0 <4.0.0"
+  sdk: ">=3.0.0 <4.0.0"
 
 dependencies:
   flutter:
@@ -15,9 +15,9 @@ dependencies:
   permission_handler: ^10.0.0
   path_provider: ^2.0.11
   path: ^1.8.2
-  edge_detection_plus:
+  detect_image_edges:
     # When depending on this package from a real application you should use:
-    #   edge_detection_plus: ^x.y.z
+    #   detect_image_edges: ^x.y.z
     # See https://dart.dev/tools/pub/dependencies#version-constraints
     # The example app is bundled with the plugin so we use a path dependency on
     # the parent directory to use the current plugin's version.
