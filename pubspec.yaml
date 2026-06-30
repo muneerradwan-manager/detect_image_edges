@@ -1,6 +1,6 @@
 name: detect_image_edges
 description: A flutter plugin to detect edges of objects, scan paper, detect corner, detect rectangle. It allows cropping of the detected object image and returns the path of the cropped image.
-version: 1.0.0
+version: 1.0.1
 homepage: https://github.com/muneerradwan-manager/detect_image_edges
 
 environment:
